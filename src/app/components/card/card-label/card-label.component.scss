@@ -1,0 +1,24 @@
+.cardLabel{
+    &_container{
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        background-color: black;
+        position: absolute; 
+        bottom: 5rem;
+        right: 0;
+        transition: background-color .3s;
+        &:hover{
+            background-color: #FED626;
+        }
+    }
+    &_content{
+        font-family: 'Segoe UI';
+        font-size: 16px;
+        color: #fff;
+        transition: color .3s;
+        &:hover{
+            color:#000;
+        }
+    }
+}

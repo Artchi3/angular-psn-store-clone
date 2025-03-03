@@ -1,0 +1,52 @@
+.cardPricing{
+    &_container{
+        width: 100%;
+        height: 70px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.900);
+        position: absolute; 
+        bottom: 0rem;
+        left: 0; 
+    }
+    &_content{
+        font-family: 'Calibri';
+        font-size: 16px;
+        color: #fff;  
+        width: 100%;
+    } 
+    &_title{  
+        font-family: 'Calibri';
+        font-size: 16px;
+        color: #fff; 
+        margin-bottom: 10px;
+    }
+    &_value{  
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        &-console{
+            font-family: 'Calibri';
+            font-size: 16px;
+            color: #fff; 
+
+            display: flex; 
+            align-items: center;
+            justify-content: flex-start;
+            width: 100%;
+            margin-left: -2px;
+            span{
+                color: aqua;
+            }
+        }
+        &-cost{
+            font-family: 'Calibri';
+            font-size: 22px;
+            color: #fff; 
+        }
+    } 
+}
