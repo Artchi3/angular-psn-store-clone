@@ -1,0 +1,36 @@
+.card{
+    &_container{
+        width: 30%;
+        height: 450px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        border: 1px solid red;
+        overflow: hidden;
+    }
+    &_gameImage{
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        min-width: 250%;
+        height: auto; 
+        img{
+            width: 100%;
+            height: auto; 
+        }
+    }
+    &_gameContent{
+        
+    }
+    &_gameData{
+        
+    }
+    &_gameName{
+        
+    }
+    &_gamePrice{
+        
+    }
+
+}
